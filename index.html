@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Basti ki Pathshala</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: rgb(236, 236, 236);
+    }
+
+    .navbar-custom {
+      background-color: rgb(33, 37, 41);
+      padding: 1.5rem 1rem;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .navbar-brand {
+      font-weight: bold;
+      font-size: 2rem;
+      color: rgb(255, 255, 255);
+    }
+
+    .navbar-nav .nav-link {
+      color: rgb(200, 200, 200);
+      font-size: 1.1rem;
+      margin-right: 20px;
+    }
+
+    .navbar-nav .nav-link:hover {
+      color: rgb(255, 255, 255);
+    }
+
+    .hero-small {
+      background: linear-gradient(rgba(20, 20, 20, 0.5), rgba(20, 20, 20, 0.5)),
+        url('img10.jpg') no-repeat center center;
+      background-size: cover;
+      color: white;
+      text-align: center;
+      padding: 40px 10px;
+    }
+
+    .hero-small h1 {
+      font-size: 3rem;
+      font-weight: 700;
+    }
+
+    .hero-small p {
+      font-size: 1.2rem;
+      color: rgb(230, 230, 230);
+    }
+
+    .section {
+      padding: 60px 0;
+    }
+
+    .section-heading {
+      font-size: 2.2rem;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+
+    .section-text {
+      font-size: 1.1rem;
+      line-height: 1.8;
+    }
+
+    .gallery-card {
+      border: none;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+      overflow: hidden;
+    }
+
+    .gallery-img {
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+    }
+
+    .img-round {
+      border-radius: 12px;
+    }
+
+    .contribution {
+      background-color: rgb(242, 248, 255);
+      border-left: 5px solid rgb(0, 132, 255);
+      padding: 30px;
+      border-radius: 10px;
+      margin-top: 30px;
+    }
+
+    .footer {
+      background-color: rgb(33, 37, 41);
+      color: white;
+      padding: 25px 0;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-custom">
+    <div class="container">
+      <a class="navbar-brand" href="#">Basti ki Pathshala</a>
+      <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+          <li class="nav-item"><a class="nav-link" href="form.html">volunteer Form</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero-small">
+    <div class="container">
+      <h1>Spreading the Light of Education</h1>
+      <p>Join our mission to educate, empower, and uplift underserved communities</p>
+    </div>
+  </section>
+
+  <!-- About Us Section -->
+  <section id="about" class="section" style="background-color: rgb(245, 250, 255);">
+    <div class="container">
+      <div class="row align-items-center">
+        <!-- Image Column -->
+        <!-- Image Column (Improved for better image display) -->
+<div class="col-md-6 mb-4 mb-md-0">
+  <div class="shadow rounded-4 overflow-hidden bg-white p-2">
+    <div class="ratio ratio-4x3 rounded-4">
+      <img src="education.jpg" alt="Children's Education" class="img-fluid object-fit-cover w-100 h-100 rounded-4" style="object-fit: cover;" />
+    </div>
+  </div>
+</div>
+
+
+        <!-- Text Column -->
+        <div class="col-md-6">
+          <h2 class="section-heading text-primary">About Us</h2>
+          <p class="section-text">
+            <strong>Basti ki Pathshala</strong> is a grassroot education initiative that brings hope to underserved children in slums and low-income communities. We break barriers by creating accessible, inclusive, and joyful learning spaces for every child.
+          </p>
+          <p class="section-text">
+            Run by passionate volunteers, we focus on holistic learning—academic support, life skills, creative thinking, and emotional development. We don’t just teach; we inspire futures.
+          </p>
+        </div>
+      </div>
+
+      <!-- Mission & Vision Cards -->
+      <div class="row mt-5">
+        <div class="col-md-4">
+          <div class="p-4 bg-white shadow rounded-4 h-100">
+            <h5 class="text-primary fw-bold">🎯 Our Mission</h5>
+            <p class="section-text mb-0">
+              To empower every child with knowledge and confidence through accessible and compassionate education.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="p-4 bg-white shadow rounded-4 h-100">
+            <h5 class="text-primary fw-bold">🌱 Our Vision</h5>
+            <p class="section-text mb-0">
+              A world where every child, regardless of background, has the tools to dream, learn, and thrive.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="p-4 bg-white shadow rounded-4 h-100">
+            <h5 class="text-primary fw-bold">💡 Our Impact</h5>
+            <p class="section-text mb-0">
+              Over 500 children supported with regular classes, workshops, and emotional guidance—led entirely by volunteers like you.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section id="gallery" class="section bg-light">
+    <div class="container">
+      <h2 class="text-center section-heading mb-5">Our Work in Action</h2>
+      <div class="row g-4">
+        <!-- Image Cards -->
+        <div class="col-sm-6 col-md-4">
+          <div class="card gallery-card">
+            <img src="img1.jpeg" class="gallery-img" alt="Gallery image">
+            <div class="card-body">
+              <p class="card-text">Children learning in an open classroom.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <div class="card gallery-card">
+            <img src="image2.jpeg" class="gallery-img" alt="Gallery image">
+            <div class="card-body">
+              <p class="card-text">Volunteers mentoring and guiding youth.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <div class="card gallery-card">
+            <img src="image3.jpeg" class="gallery-img" alt="Gallery image">
+            <div class="card-body">
+              <p class="card-text">Creative sessions with books and play.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <div class="card gallery-card">
+            <img src="img4.jpeg" class="gallery-img" alt="Gallery image">
+            <div class="card-body">
+              <p class="card-text">Empowering girls through education.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <div class="card gallery-card">
+            <img src="img6.jpeg" class="gallery-img" alt="Gallery image">
+            <div class="card-body">
+              <p class="card-text">Community collaboration and workshops.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <div class="card gallery-card">
+            <img src="img7.jpeg" class="gallery-img" alt="Gallery image">
+            <div class="card-body">
+              <p class="card-text">Every smile tells a story of hope.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contribution Section -->
+  <section class="section">
+    <div class="container">
+      <h2 class="section-heading text-center mb-4">Contribute & Make a Difference</h2>
+      <div class="contribution">
+        <p class="section-text">
+          Your contribution can transform lives. Whether it's your time, skills, or donations, your involvement helps educate children who would otherwise be left behind. Fill out our volunteer form, and our team will reach out to you.
+        </p>
+        <p class="section-text">
+          Be part of a growing family committed to change. Empower dreams, support growth, and bring light to young minds. We are waiting to welcome you.
+        </p>
+        <p class="fw-bold">
+          Join us and become the reason someone dares to dream.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 Basti ki Pathshala | All Rights Reserved</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
